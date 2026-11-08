@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CajaFuerte_Guevara_Neila/1.0.0": {
+        "runtime": {
+          "CajaFuerte_Guevara_Neila.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CajaFuerte_Guevara_Neila/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

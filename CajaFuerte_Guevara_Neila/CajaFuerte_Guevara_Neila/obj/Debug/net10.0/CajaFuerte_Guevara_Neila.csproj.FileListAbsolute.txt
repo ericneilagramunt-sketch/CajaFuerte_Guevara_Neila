@@ -1,0 +1,16 @@
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\bin\Debug\net10.0\CajaFuerte_Guevara_Neila.exe
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\bin\Debug\net10.0\CajaFuerte_Guevara_Neila.deps.json
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\bin\Debug\net10.0\CajaFuerte_Guevara_Neila.runtimeconfig.json
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\bin\Debug\net10.0\CajaFuerte_Guevara_Neila.dll
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\bin\Debug\net10.0\CajaFuerte_Guevara_Neila.pdb
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.AssemblyInfoInputs.cache
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.AssemblyInfo.cs
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.csproj.CoreCompileInputs.cache
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.sourcelink.json
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.dll
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\refint\CajaFuerte_Guevara_Neila.dll
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.pdb
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuerte_Guevara_Neila.genruntimeconfig.cache
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\ref\CajaFuerte_Guevara_Neila.dll
+C:\Users\Eric\Documents\GitHub\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\CajaFuerte_Guevara_Neila\obj\Debug\net10.0\CajaFuer.49C31ADC.Up2Date
