@@ -8,8 +8,7 @@ using CajaFuerte_Guevara_Neila.Servicios;
 CifradoService servicio = new CifradoService();
 
 bool salir = false;
-
-// Mantenemos el menú activo hasta que el usuario seleccione salir.
+// Mantenemos la aplicación corriendo en bucle hasta que el usuario decida salir explícitamente..
 while (!salir)
 {
     Console.WriteLine();
@@ -29,11 +28,12 @@ while (!salir)
         case "1":
             Console.WriteLine();
             Console.Write("Introduce la ruta del archivo .txt: ");
+                 // Limpiamos los espacios y las comillas por si arrastran la ruta desde el explorador de archivos.
             string rutaCifrar = (Console.ReadLine() ?? "").Trim().Trim('"');
 
             Console.Write("Introduce la contraseña: ");
             string passwordCifrar = LeerPassword();
-
+                   // Nos aseguramos de que no dejen la contraseña en blanco.
             if (string.IsNullOrEmpty(passwordCifrar))
             {
                 Console.WriteLine("La contraseña no puede estar vacía.");
@@ -51,6 +51,7 @@ while (!salir)
             }
             catch (Exception ex)
             {
+                    // Si algo falla (archivo no encontrado, formato incorrecto, etc.), informamos del motivo con calma.
                 Console.WriteLine();
                 Console.WriteLine("No se ha podido cifrar el archivo.");
                 Console.WriteLine("Motivo: " + ex.Message);
@@ -101,6 +102,7 @@ while (!salir)
             break;
 
         case "3":
+                // Activamos la bandera para romper el bucle while y cerrar el programa.
             salir = true;
             Console.WriteLine("Cerrando CajaFuerte...");
             break;
@@ -119,7 +121,7 @@ static string LeerPassword()
     while (true)
     {
         ConsoleKeyInfo tecla = Console.ReadKey(true);
-
+          // Si pulsan Enter, damos por finalizada la introducción de la contraseña.
         if (tecla.Key == ConsoleKey.Enter)
         {
             Console.WriteLine();
@@ -137,6 +139,7 @@ static string LeerPassword()
         }
         else if (!char.IsControl(tecla.KeyChar))
         {
+                    // Añadimos el carácter a la contraseña y pintamos un asterisco para mantener la privacidad.
             password.Append(tecla.KeyChar);
             Console.Write("*");
         }
