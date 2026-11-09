@@ -123,7 +123,7 @@ namespace CajaFuerte_Guevara_Neila.Servicios
                 cifrado.Length
             );
 
-            // Volvemos a derivar la misma clave utilizando la contraseña y la sal.
+            // Volvemos a calcular exactamente la misma clave usando la contraseña introducida y la sal que venía en el archivo.
             byte[] clave = Rfc2898DeriveBytes.Pbkdf2(
                 password,
                 salt,
@@ -136,7 +136,7 @@ namespace CajaFuerte_Guevara_Neila.Servicios
 
             try
             {
-                // AES-GCM comprueba el tag antes de aceptar el contenido descifrado.
+                // Intentamos descifrar.AES-GCM comprueba el tag antes de aceptar el contenido descifrado.
                 using (AesGcm aes = new AesGcm(clave, TagSize))
                 {
                     aes.Decrypt(nonce, cifrado, tag, descifrado);
@@ -144,23 +144,24 @@ namespace CajaFuerte_Guevara_Neila.Servicios
 
                 string directorio = Path.GetDirectoryName(Path.GetFullPath(rutaArchivo))!;
                 string nombre = Path.GetFileNameWithoutExtension(rutaArchivo);
-
+                     // Preparamos el nombre para el archivo de texto recuperado.
                 string rutaSalida = Path.Combine(
                     directorio,
                     nombre + "_descifrado.txt"
                 );
 
-                // No sobrescribimos archivos descifrados que ya existan.
+                      // Evitamos pisar un archivo que ya estuviera creado por si acaso.
                 if (File.Exists(rutaSalida))
-                    throw new IOException("Ya existe el archivo descifrado con ese nombre.");
-
+                throw new IOException("Ya existe el archivo descifrado con ese nombre.");
+                      // Escribimos el contenido limpio y recuperado en el disco.
                 File.WriteAllBytes(rutaSalida, descifrado);
 
                 return rutaSalida;
             }
             finally
             {
-                CryptographicOperations.ZeroMemory(clave);
+                // Limpiamos la clave de la memoria RAM para mantenernos seguros.
+          CryptographicOperations.ZeroMemory(clave);
             }
         }
     }
